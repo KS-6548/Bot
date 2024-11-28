@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --body_background: #fff !important;
+    --body_color: #000 !important;
+    --link_color: #0d6efd !important;
+    --p: #575757;
+    --body_graduant: linear-gradient(90.21deg, rgba(13, 110, 253, 0.5) -5.91%, rgba(25, 135, 84, 0.5) 111.58%);
+    --background-image: linear-gradient(#fff, #fff, #0d6efd 109%);
+    --card-graduant: linear-gradient(90.21deg, #0d6efd -5.91%, #198754 111.58%);
+    --skill_background: #fff;
+    --project_background: rgba(69, 133, 230,0.10);
+    --plane: rgb(69, 133, 230);
+    --timeline-primary: linear-gradient(90deg, #0d6efd, #198754);
+    --about-bg: rgba(69, 133, 230,0.10);
+}
+
+[data-theme="dark"] {
+    --body_background: #242323 !important;
+    --body_color: #fff !important;
+    --link_color: #8d49c5 !important;
+    --p: #B8B8B8;
+    --body_graduant: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    --background-image: url("./assets/banner-bg.png");
+    --card-graduant: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    --skill_background: url('./assets/color-sharp-dark.png');
+    --project_background: url('./assets/color-sharp2.png');
+    --plane: #AA367C;
+    --timeline-primary: linear-gradient(90deg, #AA367C, #4A2FBD);
+    --about-bg: rgba(0,0,0,0.25);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Chakra Petch, sans-serif;
+    transition: 0.3s all ease-in-out;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+}
+
+body {
+    font-weight: 400;
+    height: fit-content;
+    overflow-x: hidden;
+    position: relative;
+    background-color: var(--body_background) !important;
+    color: var(--body_color) !important;
+}

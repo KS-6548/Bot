@@ -1,0 +1,115 @@
+/* Navbar design */
+nav.navbar {
+    padding: 18px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    transition: 0.32s ease-in-out;
+}
+
+nav.navbar.scrolled {
+    background-color: var(--body_background);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.555);
+}
+.navbar-brand{
+    margin-left: 20px;
+}
+/* .btn-close{
+    color: var(--link_color) !important;
+} */
+.offcanvas{
+    background-color:var(--body_background) !important;
+}
+.offcanvas-body .navbar-nav .nav-link {
+    font-weight: 600 !important;
+    position: relative !important;
+    letter-spacing: 0.8px;
+    font-size: 19px;
+    bottom: 0;
+    opacity: 0.75;
+    cursor: pointer;
+    color: var(--body_color) !important;
+}
+
+.offcanvas-body .navbar-nav a.nav-link.active {
+    color: var(--link_color) !important;
+}
+
+.offcanvas-body .navbar-nav a.nav-link:hover {
+    color: var(--link_color) !important;
+    /* opacity: 0.5; */
+}
+
+.offcanvas-body .navbar-nav .nav-link.active::before {
+    content: "";
+    width: 40px;
+    height: 10px;
+    position: absolute;
+    bottom: 5px;
+    border-bottom: 2px solid var(--link_color) !important;
+}
+
+.offcanvas-body .navbar-nav .nav-link:hover::before {
+    content: "";
+    width: 40px;
+    height: 10px;
+    position: absolute;
+    bottom: 5px;
+    border-bottom: 2px solid var(--link_color) !important;
+    opacity: 0.5;
+}
+
+nav.navbar .navbar-nav .nav-link {
+    font-weight: 600 !important;
+    position: relative !important;
+    letter-spacing: 0.8px;
+    padding: 0 20px;
+    font-size: 19px;
+    bottom: 0;
+    opacity: 0.75;
+    cursor: pointer;
+    /* color: var(--body_color) !important; */
+}
+
+nav.navbar .navbar-nav a.nav-link.active {
+    color: var(--link_color) !important;
+}
+
+nav.navbar .navbar-nav a.nav-link:hover {
+    color: var(--link_color) !important;
+    opacity: 0.5;
+}
+
+nav.navbar .navbar-nav .nav-link.active::before {
+    content: "";
+    width: 40px;
+    height: 10px;
+    position: absolute;
+    bottom: -5px;
+    border-bottom: 2px solid var(--link_color) !important;
+}
+
+nav.navbar .navbar-nav .nav-link:hover::before {
+    content: "";
+    width: 40px;
+    height: 10px;
+    position: absolute;
+    bottom: -5px;
+    border-bottom: 2px solid var(--link_color) !important;
+    opacity: 0.5;
+}
+
+.navbar-btn .icon {
+    font-size: 25px;
+}
+
+.navbar-btn button {
+    color: var(--link_color) !important;
+}
+
+@media screen and (max-width:980px){
+    #offcanvasNavbar-expand .nav-link:not(.active), .btn{
+        color: black !important;
+    }
+}
