@@ -1,4 +1,3 @@
-
 /* Skill design */
 .Skill {
     position: relative;
@@ -11,6 +10,17 @@
     background-color: rgba(0, 0, 0, 0.35);
     background: var(--skill_background);
     background-repeat: no-repeat;
+}
+.title,.par{
+    position: relative;
+    top: 30px;
+    opacity: 0;
+}
+.front,.back{
+    opacity: 0;    
+}
+.frontend,.backend{
+    transform: scale(0);
 }
 .skill-bg{
     position: absolute;

@@ -3,46 +3,50 @@
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    background-color: var(--body_background) !important;
+    background-color: var(--card-bg) !important;
 }
 .card-title{
     font-weight: bold;
     font-size: 22px;
-    color: var(--plane);
+    color: var(--plane) !important;
 }
 .card-text{
     color: var(--p);
 }
-
-.img-card {
-    width: 60%;
-}
-
 .project .card-body {
-    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.img-card{
+    height: 47%;
 }
 
 .card .tag {
     padding: 0px 10px;
 }
 
+.card i{
+    font-size: 19px;
+    margin-right: 10px;
+}
+.html{
+    color: orangered;
+}
+.css{
+    color: #0d6efd;
+}
+.boot{
+    color: blueviolet;
+}
+.js{
+    color: yellow;
+}
+.react{
+    color: aqua;
+}
+
 /* .project .row:hover> :not(:hover) {
     filter: blur(2px);
     opacity: 0.9;
 } */
-
-@media screen and (max-width:700px) {
-    .project-card {
-        width: 18rem;
-        height: fit-content;
-        display: flex !important;
-        flex-direction: column !important;
-    }
-
-    .img-card {
-        width: 100%;
-    }
-}

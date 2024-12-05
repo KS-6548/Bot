@@ -10,9 +10,12 @@
     --card-graduant: linear-gradient(90.21deg, #0d6efd -5.91%, #198754 111.58%);
     --skill_background: #fff;
     --project_background: rgba(69, 133, 230,0.10);
-    --plane: rgb(69, 133, 230);
+    --plane: rgb(69, 133, 230) !important;
     --timeline-primary: linear-gradient(90deg, #0d6efd, #198754);
     --about-bg: rgba(69, 133, 230,0.10);
+    --card-bg: white;
+    --background-button: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%); 
+    --btn-box:#5468ff 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #5468ff 0 -3px 0 inset;
 }
 
 [data-theme="dark"] {
@@ -25,9 +28,12 @@
     --card-graduant: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
     --skill_background: url('./assets/color-sharp-dark.png');
     --project_background: url('./assets/color-sharp2.png');
-    --plane: #AA367C;
+    --plane: #AA367C !important;
     --timeline-primary: linear-gradient(90deg, #AA367C, #4A2FBD);
     --about-bg: rgba(0,0,0,0.25);
+    --card-bg: rgb(39, 39, 39);
+    --background-button: radial-gradient(100% 100% at 100% 0, #4A2FBD 0, #AA367C 100%);
+    --btn-box:#AA367C 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #AA367C 0 -3px 0 inset;
 }
 
 * {

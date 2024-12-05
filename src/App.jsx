@@ -9,7 +9,6 @@ function App() {
   
   return (
     <>
-      {/* <Home/> */}
       <BrowserRouter>
         <Routes>
           <Route path="/Portfolio" element={<Home />}/>
