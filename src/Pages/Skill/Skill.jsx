@@ -16,7 +16,7 @@ function Skill() {
             trigger:".skill-container",
             start:"top center",
             end:"bottom center",
-            markers:true,
+            markers:false,
             toggleActions: "restart none none reset"
         },
     })
