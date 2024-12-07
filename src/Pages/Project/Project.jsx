@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Card from '../../Components/Card/Card'
 import { Container, Row, Col } from "react-bootstrap";
 import { projects } from '../../Utilities/Project'
-import Demo from '../../assets/Demo.svg'
+import Demo from '../../assets/demo.svg'
 import '../Project/Project.css'
 
 function Project() {
