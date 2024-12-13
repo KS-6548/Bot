@@ -1,5 +1,5 @@
 # React + Vite
-![Preview](https://ks-6548.github.io/Portfolio/)
+[Preview](https://ks-6548.github.io/Portfolio/)
 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
